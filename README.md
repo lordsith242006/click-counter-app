@@ -30,6 +30,5 @@ npm run dev
 
 ## Скриншоты
 
-![Интерфейс](screenshot-interface.png)
-
-![API логи](screenshot-network.png)
+![Интерфейс](screenshots/screenshot-interface.png)
+![API логи](screenshots/screenshot-network.png)
