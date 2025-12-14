@@ -1,0 +1,16 @@
+{
+  "name": "click-counter-app",
+  "version": "1.0.0",
+  "description": "Простое Express-приложение: счётчик кликов",
+  "main": "server.js",
+  "scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+},
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

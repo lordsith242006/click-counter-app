@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Счётчик кликов</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Счётчик кликов</h1>
+
+    <div class="card">
+      <label for="counterId">ID счётчика:</label>
+      <input id="counterId" type="text" value="main">
+      <button id="loadBtn">Загрузить</button>
+    </div>
+
+    <div class="card">
+      <p>Текущее значение: <span id="value">0</span></p>
+      <button id="clickBtn">Клик +1</button>
+      <button id="click2Btn">Клик +2 (query ?step=2)</button>
+    </div>
+
+    <div class="card">
+      <h2>Создать новый счётчик</h2>
+      <input id="newId" type="text" placeholder="id">
+      <input id="newInitial" type="number" placeholder="начальное значение">
+      <button id="createBtn">Создать</button>
+    </div>
+
+    <div class="log" id="log"></div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
